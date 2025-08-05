@@ -31,6 +31,7 @@ LetsGit is an AI-powered chatbot that lets you chat with your GitHub repository 
 | Next.js        | tRPC + TypeScript | GeminiAI           | Neon       |
 | Tailwind CSS   | Node.js           | AssemblyAI         | Prisma ORM |
 | Clerk Auth     | LangChain         | GitHub REST API    |            |
+
 ---
 
 ## 📦 Installation
@@ -135,6 +136,23 @@ git push origin feature-name
 
 ---
 
+## Contributors
+
+<a href="https://github.com/Bhavesh71">
+  <img src="https://avatars.githubusercontent.com/Bhavesh71" width="80" alt="Bhavesh71"/>
+</a>
+<a href="https://github.com/Sharannarahs">
+  <img src="https://avatars.githubusercontent.com/Sharannarahs" width="80" alt="Sharannarahs"/>
+</a>
+<a href="https://github.com/Mukil007">
+  <img src="https://avatars.githubusercontent.com/Mukil007" width="80" alt="Mukil007"/>
+</a>
+<a href="https://github.com/sriram0804">
+  <img src="https://avatars.githubusercontent.com/sriram0804" width="80" alt="sriram0804"/>
+</a>
+
+---
+
 ## 📄 License
 
 MIT License © [Bhavesh L](https://github.com/Bhavesh71)
@@ -154,4 +172,4 @@ MIT License © [Bhavesh L](https://github.com/Bhavesh71)
 ## 🧑‍💻 Created with 💚 by Bhavesh L
 
 Let’s Git Talking!
-```
+'''
