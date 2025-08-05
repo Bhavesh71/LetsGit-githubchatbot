@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 13, "column": 0}, "map": {"version":3,"sources":["file:///D:/Projects/github-chatbot/src/app/%28protected%29/qa/page.tsx"],"sourcesContent":["import React from 'react'\r\n\r\nconst QAPage = () => {\r\n  return (\r\n    <div>QAPage</div>\r\n  )\r\n}\r\n\r\nexport default QAPage"],"names":[],"mappings":";;;;;AAEA,MAAM,SAAS;IACb,qBACE,8OAAC;kBAAI;;;;;;AAET;uCAEe","debugId":null}}]
+}

@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 13, "column": 0}, "map": {"version":3,"sources":["file:///D:/Projects/github-chatbot/src/app/%28protected%29/create/page.tsx"],"sourcesContent":["import React from 'react'\r\n\r\nconst CreatePage= () => {\r\n  return (\r\n    <div>Create Page</div>\r\n  )\r\n}\r\n\r\nexport default CreatePage"],"names":[],"mappings":";;;;;AAEA,MAAM,aAAY;IAChB,qBACE,8OAAC;kBAAI;;;;;;AAET;uCAEe","debugId":null}}]
+}

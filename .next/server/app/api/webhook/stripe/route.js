@@ -1,0 +1,11 @@
+const CHUNK_PUBLIC_PATH = "server/app/api/webhook/stripe/route.js";
+const runtime = require("../../../../chunks/[turbopack]_runtime.js");
+runtime.loadChunk("server/chunks/node_modules_next_7e9c2245._.js");
+runtime.loadChunk("server/chunks/node_modules_@opentelemetry_api_build_esm_c8ec963b._.js");
+runtime.loadChunk("server/chunks/node_modules_zod_v4_7915b9ad._.js");
+runtime.loadChunk("server/chunks/node_modules_stripe_esm_da04138f._.js");
+runtime.loadChunk("server/chunks/node_modules_3c39a13b._.js");
+runtime.loadChunk("server/chunks/[root-of-the-server]__b13e5f24._.js");
+runtime.getOrInstantiateRuntimeModule("[project]/.next-internal/server/app/api/webhook/stripe/route/actions.js [app-rsc] (server actions loader, ecmascript)", CHUNK_PUBLIC_PATH);
+runtime.getOrInstantiateRuntimeModule("[project]/node_modules/next/dist/esm/build/templates/app-route.js { INNER_APP_ROUTE => \"[project]/src/app/api/webhook/stripe/route.ts [app-route] (ecmascript)\" } [app-route] (ecmascript)", CHUNK_PUBLIC_PATH);
+module.exports = runtime.getOrInstantiateRuntimeModule("[project]/node_modules/next/dist/esm/build/templates/app-route.js { INNER_APP_ROUTE => \"[project]/src/app/api/webhook/stripe/route.ts [app-route] (ecmascript)\" } [app-route] (ecmascript)", CHUNK_PUBLIC_PATH).exports;

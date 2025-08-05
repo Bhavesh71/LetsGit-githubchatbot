@@ -1,0 +1,40 @@
+{
+  "sorted_middleware": [],
+  "middleware": {
+    "/": {
+      "files": [
+        "server/edge/chunks/_986ce585._.js",
+        "server/edge/chunks/node_modules_@opentelemetry_api_build_esm_9706894f._.js",
+        "server/edge/chunks/node_modules_@clerk_shared_dist_6e0ef154._.js",
+        "server/edge/chunks/node_modules_@clerk_backend_dist_6dad8c36._.js",
+        "server/edge/chunks/node_modules_@clerk_nextjs_dist_esm_521d2976._.js",
+        "server/edge/chunks/node_modules_cookie_dist_index_939a705b.js",
+        "server/edge/chunks/[root-of-the-server]__dc15d093._.js",
+        "server/edge/chunks/edge-wrapper_54b58f49.js"
+      ],
+      "name": "middleware",
+      "page": "/",
+      "matchers": [
+        {
+          "regexp": "/:nextData(_next/data/[^/]{1,})?/((?!_next|[^?]*\\.(?:html?|css|js(?!on)|jpe?g|webp|png|gif|svg|ttf|woff2?|ico|csv|docx?|xlsx?|zip|webmanifest)).*){(\\\\.json)}?",
+          "originalSource": "/((?!_next|[^?]*\\.(?:html?|css|js(?!on)|jpe?g|webp|png|gif|svg|ttf|woff2?|ico|csv|docx?|xlsx?|zip|webmanifest)).*)"
+        },
+        {
+          "regexp": "/:nextData(_next/data/[^/]{1,})?/(api|trpc)(.*){(\\\\.json)}?",
+          "originalSource": "/(api|trpc)(.*)"
+        }
+      ],
+      "wasm": [],
+      "assets": [],
+      "env": {
+        "__NEXT_BUILD_ID": "development",
+        "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "tWjRtbqK7An+ECIuVL4NhtOkvNSWtiS6Y4UHo5Ri53E=",
+        "__NEXT_PREVIEW_MODE_ID": "01ff35bcce279809bd765d6660b63ce6",
+        "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "3c50fc23b36500c47f193616ca13f9a63cc70b0dbf3465af525103d7302b2033",
+        "__NEXT_PREVIEW_MODE_SIGNING_KEY": "f4ee53d6b30448557755d339b44ec94b45c5e330d2f8a96257a1a88bcabe3be1"
+      }
+    }
+  },
+  "instrumentation": null,
+  "functions": {}
+}

@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 5, "column": 0}, "map": {"version":3,"sources":["file:///D:/Projects/github-chatbot/src/app/%28protected%29/dashboard/page.tsx"],"sourcesContent":["'use client'\r\nimport useProject from '@/hooks/use-projects'\r\n//import { useUser } from '@clerk/nextjs'\r\nimport React from 'react'\r\n\r\nconst DashboardPage = () => {\r\n \r\n    //const { user } = useUser() // useUser() is a React hook provided by Clerk to access the currently signed-in user's info on the client side\r\n    // RETURNS const { user, isLoaded, isSignedIn } = useUser()\r\n\r\n    const { project } = useProject()\r\n\r\n  return (\r\n    <div>\r\n      <div className='flex items-center justify-between flex-wrap gap-y-4'>\r\n\r\n      </div>\r\n    </div>\r\n    \r\n  )\r\n}\r\n\r\nexport default DashboardPage"],"names":[],"mappings":";;;;AACA;AADA;;;AAKA,MAAM,gBAAgB;IAElB,4IAA4I;IAC5I,2DAA2D;IAE3D,MAAM,EAAE,OAAO,EAAE,GAAG,CAAA,GAAA,+HAAA,CAAA,UAAU,AAAD;IAE/B,qBACE,8OAAC;kBACC,cAAA,8OAAC;YAAI,WAAU;;;;;;;;;;;AAMrB;uCAEe","debugId":null}}]
+}

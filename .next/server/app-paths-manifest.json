@@ -1,0 +1,7 @@
+{
+  "/(protected)/dashboard/page": "app/(protected)/dashboard/page.js",
+  "/(protected)/meetings/page": "app/(protected)/meetings/page.js",
+  "/api/trpc/[trpc]/route": "app/api/trpc/[trpc]/route.js",
+  "/page": "app/page.js",
+  "/sync-user/page": "app/sync-user/page.js"
+}

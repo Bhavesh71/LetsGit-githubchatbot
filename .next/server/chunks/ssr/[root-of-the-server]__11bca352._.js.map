@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 9, "column": 0}, "map": {"version":3,"sources":["file:///D:/VIT/Projects/GitHub/github-chatbot/src/app/page.tsx"],"sourcesContent":["import { redirect } from 'next/navigation'\n\nexport default  function Home() {\n   return redirect('/sync-user')\n}\n"],"names":[],"mappings":";;;AAAA;AAAA;;AAEgB,SAAS;IACtB,OAAO,CAAA,GAAA,qLAAA,CAAA,WAAQ,AAAD,EAAE;AACnB","debugId":null}}]
+}
