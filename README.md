@@ -138,18 +138,20 @@ git push origin feature-name
 
 ## Contributors
 
-<a href="https://github.com/Bhavesh71">
-  <img src="https://avatars.githubusercontent.com/Bhavesh71" width="80" alt="Bhavesh71"/>
-</a>
-<a href="https://github.com/Sharannarahs">
-  <img src="https://avatars.githubusercontent.com/Sharannarahs" width="80" alt="Sharannarahs"/>
-</a>
-<a href="https://github.com/Mukil007">
-  <img src="https://avatars.githubusercontent.com/Mukil007" width="80" alt="Mukil007"/>
-</a>
-<a href="https://github.com/sriram0804">
-  <img src="https://avatars.githubusercontent.com/sriram0804" width="80" alt="sriram0804"/>
-</a>
+<p align="left">
+  <a href="https://github.com/Bhavesh71">
+    <img src="https://avatars.githubusercontent.com/Bhavesh71" width="80" height="80" style="border-radius: 50%;" alt="Bhavesh71"/>
+  </a>
+  <a href="https://github.com/Sharannarahs">
+    <img src="https://avatars.githubusercontent.com/Sharannarahs" width="80" height="80" style="border-radius: 50%;" alt="Sharannarahs"/>
+  </a>
+  <a href="https://github.com/Mukil007">
+    <img src="https://avatars.githubusercontent.com/Mukil007" width="80" height="80" style="border-radius: 50%;" alt="Mukil007"/>
+  </a>
+  <a href="https://github.com/sriram0804">
+    <img src="https://avatars.githubusercontent.com/sriram0804" width="80" height="80" style="border-radius: 50%;" alt="sriram0804"/>
+  </a>
+</p>
 
 ---
 
