@@ -1,5 +1,4 @@
-```markdown
-# 🤖 LetsGit – GitHub Repository ChatBot
+### 🤖 LetsGit – GitHub Repository ChatBot
 
 > “Talk to your repository like it’s your teammate.”
 
@@ -7,7 +6,7 @@ LetsGit is an AI-powered chatbot that lets you chat with your GitHub repository 
 
 ---
 
-## 🚀 Features
+### 🚀 Features
 
 - 💬 Ask questions about your code
 - 🧠 Summarize commits, PRs, and file structure
@@ -18,7 +17,7 @@ LetsGit is an AI-powered chatbot that lets you chat with your GitHub repository 
 
 ---
 
-## 🧰 Tech Stack
+### 🧰 Tech Stack
 
 | Frontend       | Backend           | AI & Tools         | Database   |
 |----------------|-------------------|--------------------|------------|
