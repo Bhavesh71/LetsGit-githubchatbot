@@ -144,7 +144,7 @@ MIT License © [Bhavesh L L](https://github.com/Bhavesh71)
 
 ---
 
-## 🧑‍💻 Created with 💚 by Bhavesh L L
+## 🧑‍💻 Created with 💚 by Bhavesh L
 
 Let’s Git Talking!
 ```
