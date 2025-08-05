@@ -1,4 +1,4 @@
-### 🤖 LetsGit – GitHub Repository ChatBot
+## 🤖 LetsGit – GitHub Repository ChatBot
 
 > “Talk to your repository like it’s your teammate.”
 
@@ -6,9 +6,9 @@ LetsGit is an AI-powered chatbot that lets you chat with your GitHub repository 
 
 ---
 
-### 🚀 Features
+## 🚀 Features
 
-## 🧠 GitHub Repository ChatBot (powered by Gemini AI)
+### 🧠 GitHub Repository ChatBot (powered by Gemini AI)
 - 💬 Ask questions about your code
 - 🧠 Summarize commits, PRs, and file structure
 - 🧭 Navigate repositories conversationally
@@ -16,7 +16,7 @@ LetsGit is an AI-powered chatbot that lets you chat with your GitHub repository 
 - 🔐 Secure login with Clerk Auth
 - 🌟 Powered by OpenAI, AssemblyAI, and LangChain
 
-## 🎙️ Meeting Audio Summarizer (Cloudinary + AssemblyAI)
+### 🎙️ Meeting Audio Summarizer (Cloudinary + AssemblyAI)
 - Upload meeting recordings via **Cloudinary**
 - Get accurate, structured meeting summaries using **AssemblyAI**
 - Convert hours of audio into minutes of highlights
