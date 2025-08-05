@@ -130,7 +130,7 @@ git push origin feature-name
 
 ## 📄 License
 
-MIT License © [Bhavesh L L](https://github.com/Bhavesh71)
+MIT License © [Bhavesh L](https://github.com/Bhavesh71)
 
 ---
 
