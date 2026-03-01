@@ -1,0 +1,132 @@
+// Lets Git - Database Schema
+// Prisma 6 + PostgreSQL (Neon compatible)
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DATABASE_DIRECT_URL")
+}
+
+// ─── User ─────────────────────────────────────────────────────────────────────
+model User {
+  id        String   @id @default(cuid())
+  clerkId   String   @unique
+  email     String   @unique
+  name      String?
+  avatarUrl String?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  projects  ProjectMember[]
+  questions Question[]
+  saved     SavedAnswer[]
+}
+
+// ─── Project ──────────────────────────────────────────────────────────────────
+model Project {
+  id          String    @id @default(cuid())
+  name        String
+  repoUrl     String
+  repoOwner   String
+  repoName    String
+  description String?
+  language    String?
+  stars       Int       @default(0)
+  isIndexed   Boolean   @default(false)
+  indexedAt   DateTime?
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+  deletedAt   DateTime?
+
+  members     ProjectMember[]
+  commits     Commit[]
+  sourceFiles SourceFile[]
+  questions   Question[]
+}
+
+model ProjectMember {
+  id        String     @id @default(cuid())
+  userId    String
+  projectId String
+  role      MemberRole @default(MEMBER)
+  createdAt DateTime   @default(now())
+
+  user    User    @relation(fields: [userId], references: [id], onDelete: Cascade)
+  project Project @relation(fields: [projectId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, projectId])
+  @@index([userId])
+  @@index([projectId])
+}
+
+enum MemberRole {
+  OWNER
+  MEMBER
+}
+
+// ─── Commits ──────────────────────────────────────────────────────────────────
+model Commit {
+  id        String   @id @default(cuid())
+  projectId String
+  sha       String
+  message   String
+  author    String
+  avatarUrl String?
+  date      DateTime
+  summary   String?  @db.Text
+
+  project Project @relation(fields: [projectId], references: [id], onDelete: Cascade)
+
+  @@unique([projectId, sha])
+  @@index([projectId])
+}
+
+// ─── Source Files ─────────────────────────────────────────────────────────────
+model SourceFile {
+  id        String   @id @default(cuid())
+  projectId String
+  filePath  String
+  content   String   @db.Text
+  summary   String?  @db.Text
+  language  String?
+  createdAt DateTime @default(now())
+
+  project Project @relation(fields: [projectId], references: [id], onDelete: Cascade)
+
+  @@unique([projectId, filePath])
+  @@index([projectId])
+}
+
+// ─── Q&A ──────────────────────────────────────────────────────────────────────
+model Question {
+  id              String   @id @default(cuid())
+  projectId       String
+  userId          String
+  question        String   @db.Text
+  answer          String   @db.Text
+  filesReferenced String[]
+  createdAt       DateTime @default(now())
+
+  project Project       @relation(fields: [projectId], references: [id], onDelete: Cascade)
+  user    User          @relation(fields: [userId], references: [id], onDelete: Cascade)
+  saved   SavedAnswer[]
+
+  @@index([projectId])
+  @@index([userId])
+}
+
+model SavedAnswer {
+  id         String   @id @default(cuid())
+  questionId String
+  userId     String
+  createdAt  DateTime @default(now())
+
+  question Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  user     User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([questionId, userId])
+}
